@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design a Responsive Modern Personal Portfolio Website - Html, Css & Javascript</title>
+  
+  <!--========== Swiper CSS ==========-->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+  <!--========== Main style sheet ==========-->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!--========== Remixicon ==========-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+  
+  <!--========== ScrollReveal JS ==========-->
+  
+</head>
+<body>
+
+  <!--========== Customized cursor ==========-->
+
+  <!--========== To top button with scroll indicator bar ==========-->
+  <div class="to-top-btn">
+    <a href="#home"><span>To Top</span></a>
+    <div class="scroll-indicator-bar"></div>
+  </div>
+
+  <!--========== Header ==========-->
+  <header class="sue-header">
+    <div class="sue-container">
+      <div class="inner">
+        <div class="sue-logo">
+          <a href="#"><span>Anj</span></a>
+        </div>
+        <div class="header-btns">
+          <div class="sue-main-btn border-btn lets-talk-btn">
+            <a href="#contact">Let's talk</a>
+          </div>
+          <a href="#contact" class="lets-talk-icon"><i class="ri-chat-1-fill"></i></a>
+          <div class="theme-btn">
+            <i class="ri-sun-fill sun-icon"></i>
+            <i class="ri-moon-fill moon-icon"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!--========== Bottom navigation menu ==========-->
+  <div class="bottom-nav-container">
+    <div class="bottom-nav">
+      <div class="bottom-nav-inner">
+        <i class="ri-arrow-left-down-line menu-hide-btn"></i>
+        <ul class="menu">
+          <li class="menu-item"><a href="#home" class="current"><i class="ri-home-4-line"></i><span>Home</span></a></li>
+          <li class="menu-item"><a href="#about"><i class="ri-user-line"></i><span>About</span></a></li>
+          <li class="menu-item"><a href="#resume"><i class="ri-quote-text"></i><span>Resume</span></a></li>
+          <li class="menu-item"><a href="#service"><i class="ri-service-line"></i><span>Service</span></a></li>
+          <li class="menu-item"><a href="#portfolio"><i class="ri-briefcase-line"></i><span>Portfolio</span></a></li>
+          <li class="menu-item"><a href="#contact"><i class="ri-chat-1-line"></i><span>Contact</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="menu-show-btn">
+      <div class="bar-01"></div>
+      <div class="bar-02"></div>
+    </div>
+  </div>
+
+  <!--========== Home ==========-->
+  <section class="sue-section nav-menu-section" id="home">
+    <div class="sue-container home-container">
+      <div class="sue-wrapper">
+        <div class="home-social">
+          <span>Follow On</span>
+          <div class="social-line"></div>
+          <ul class="social-icons">
+            <li><a href="#"><i class="ri-facebook-fill"></i></a></li>
+            <li><a href="#"><i class="ri-twitter-x-fill"></i></a></li>
+            <li><a href="#"><i class="ri-linkedin-fill"></i></a></li>
+          </ul>
+        </div>
+        <div class="avatar-container">
+          <div class="sue-main-btn fill-btn hire-btn-01">
+            <a href="#">Hire Me <i class="ri-user-follow-line"></i></a>
+          </div>
+          <div class="avatar-img">
+            <img src="assets/images/avatar images/anj.jpg" alt="">
+          </div>
+          <div class="avatar-info">
+            <div class="text-content">
+              <h4 class="hello-text">Hello, I'm</h4>
+              <h1 class="my-name">Angelie ALcain</h1>
+              <p class="what-i-do">A Web Designer & Developer</p>
+            </div>
+            <div class="sue-main-btn fill-btn hire-btn-02">
+              <a href="#">Hire Me <i class="ri-user-follow-line"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#about" class="home-scroll-btn">
+          <i class="ri-mouse-line mouse-icon"></i>
+          <div>Scroll Down</div>
+          <i class="ri-arrow-down-s-line arrow-icon"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!--========== About Me ==========-->
+  <section class="sue-section nav-menu-section" id="about">
+    <div class="sue-container sue-sub-container">
+      <div class="sue-wrapper">
+        <div class="section-title about-title">
+          <h3>About Me</h3>
+          <p>What I do</p>
+        </div>
+        <div class="section-content">
+          <div class="about-img">
+            <img src="assets/images/avatar images/anj.jpg" alt="">
+          </div>
+          <div class="about-details">
+            <div class="about-info">
+              <h4 class="iam">I'm a Web Designer & Developer</h4>
+              <p class="about-description">I'm Angelie L. Alcain, a 3rd-year Bachelor of Science in Computer Science student at Bohol Island State University – Candijay Campus. I have a growing passion for web design and development, and I love turning ideas into digital experiences. With hands-on experience in HTML, CSS, JavaScript, and a bit of Java and C, I’m continuously learning and exploring the world of design and coding. I'm enthusiastic, adaptable, and always ready to learn more to improve my craft and contribute to meaningful projects.</p>
+            </div>
+            <div class="pro-list">
+              <div class="pro-card">
+                <span>07</span>
+                <p>Years of Experience</p>
+              </div>
+              <div class="pro-card">
+                <span>1.2K</span>
+                <p>Complete Projects</p>
+              </div>
+              <div class="pro-card">
+                <span>1K</span>
+                <p>Satisfied Customers</p>
+              </div>
+            </div>
+            <div class="about-buttons">
+              <div class="sue-main-btn fill-btn">
+                <a href="#">Hire Me <i class="ri-user-follow-line"></i></a>
+              </div>
+              <div class="sue-main-btn border-btn">
+                <a href="assets/pdf/Sue-Ayers-CV.pdf" download>Download CV</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--========== My Resume ==========-->
+  <section class="sue-section nav-menu-section" id="resume">
+    <div class="sue-container sue-sub-container">
+      <div class="sue-wrapper">
+        <div class="section-title">
+          <h3>My Resume</h3>
+          <p>Combination of Skills & Experience</p>
+        </div>
+        <div class="resume-tabs">
+          <a class="tab-btn active"><i class="ri-graduation-cap-line"></i>Education</a>
+          <a class="tab-btn"><i class="ri-sparkling-line"></i>Experience</a>
+          <a class="tab-btn"><i class="ri-user-settings-line"></i>Personal Skills</a>
+        </div>
+        <div class="section-content">
+          <div class="resume-tab-content education active">
+            <div class="resume-line"></div>
+            <div class="resume-items">
+
+              <div class="item item-left">
+                <div class="info">
+                  <i class="ri-graduation-cap-fill"></i>
+                  <div>
+                    <h5>Bachelor of Science in Computer Science</h5>
+                    <p>BISU-Candijay Campus</p>
+                    <span>2022-Current</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item item-right">
+                <div class="info">
+                  <i class="ri-graduation-cap-fill"></i>
+                  <div>
+                    <h5>Senior High School : STEM</h5>
+                    <p>Santa Monica Institute</p>
+                    <span>2021-2022</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item item-left">
+                <div class="info">
+                  <i class="ri-graduation-cap-fill"></i>
+                  <div>
+                    <h5>Junior High School</h5>
+                    <p>SRNHS</p>
+                    <span>2019-2020</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item item-right">
+                <div class="info">
+                  <i class="ri-graduation-cap-fill"></i>
+                  <div>
+                    <h5>Elementary School</h5>
+                    <p>Abaca Elementary School</p>
+                    <span>2015-2016</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="resume-tab-content experience">
+            <div class="resume-line"></div>
+            <div class="resume-items">
+
+              <div class="item item-left">
+                <div class="info">
+                  <i class="ri-sparkling-fill"></i>
+                  <div>
+                    <h5>Built static websites with HTML & CSS</h5>
+                    <p>BISU-Candijay Campus</p>
+                    <span>2024-Current</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item item-right">
+                <div class="info">
+                  <i class="ri-sparkling-fill"></i>
+                  <div>
+                    <h5>Applied responsive design techniques</h5>
+                    <p>BISU-Candijay Campus</p>
+                    <span>2024-Current</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item item-left">
+                <div class="info">
+                  <i class="ri-sparkling-fill"></i>
+                  <div>
+                    <h5>Made interactive pages using JavaScript</h5>
+                    <p>BISU-Candijay Campus</p>
+                    <span>2024-Current</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="resume-tab-content personal-skills">
+            <div class="skill-container">
+
+              <div class="skill-card">
+                <div class="skill-title">
+                  <i class="ri-macbook-fill"></i>
+                  <span>Front-End Developer</span>
+                </div>
+                <div class="skill-categories">
+                  <div class="skill">
+                    <i class="ri-checkbox-circle-fill"></i>
+                    <div class="skill-info">
+                      <h5>HTML</h5>
+                      <span>Beginner</span>
+                    </div>
+                  </div>
+                  <div class="skill">
+                    <i class="ri-checkbox-circle-fill"></i>
+                    <div class="skill-info">
+                      <h5>CSS</h5>
+                      <span>Beginner</span>
+                    </div>
+                  </div>
+                  <div class="skill">
+                    <i class="ri-checkbox-circle-fill"></i>
+                    <div class="skill-info">
+                      <h5>JavaScript</h5>
+                      <span>Intermediate</span>
+                    </div>
+                  </div>
+                  <div class="skill">
+                    <i class="ri-checkbox-circle-fill"></i>
+                    <div class="skill-info">
+                      <h5>Figma</h5>
+                      <span>Learning</span>
+                    </div>
+                  </div>
+                  <div class="skill">
+                    <i class="ri-checkbox-circle-fill"></i>
+                    <div class="skill-info">
+                      <h5>Visual Studio Code</h5>
+                      <span>Basic</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-card">
+                <div class="skill-title">
+                  <i class="ri-server-fill"></i>
+                  <span>Back-End Developer</span>
+                </div>
+                <div class="skill-categories">
+                  <div class="skill">
+                    <i class="ri-checkbox-circle-fill"></i>
+                    <div class="skill-info">
+                      <h5>PHP</h5>
+                      <span>Beginner</span>
+                    </div>
+                  </div>
+                  <div class="skill">
+                    <i class="ri-checkbox-circle-fill"></i>
+                    <div class="skill-info">
+                      <h5>Python</h5>
+                      <span>Learning</span>
+                    </div>
+                  </div>
+                  <div class="skill">
+                    <i class="ri-checkbox-circle-fill"></i>
+                    <div class="skill-info">
+                      <h5>MySQL</h5>
+                      <span>Intermediate</span>
+                    </div>
+                  </div>
+                  <div class="skill">
+                    <i class="ri-checkbox-circle-fill"></i>
+                    <div class="skill-info">
+                      <h5>Firebase</h5>
+                      <span>Learning</span>
+                    </div>
+                  </div>
+                  <div class="skill">
+                    <i class="ri-checkbox-circle-fill"></i>
+                    <div class="skill-info">
+                      <h5>Visual Studio Code</h5>
+                      <span>Basic</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--========== Services ==========-->
+  <section class="sue-section nav-menu-section" id="service">
+    <div class="sue-container sue-sub-container">
+      <div class="sue-wrapper">
+        <div class="section-title">
+          <h3>Services</h3>
+          <p>What I Provide</p>
+        </div>
+        <div class="section-content">
+          <div class="service-container">
+
+            <div class="card-with-modal">
+              <div class="service-card">
+                <div class="service-info">
+                  <i class="ri-pencil-ruler-2-fill service-icon"></i>
+                  <h4>Web Design</h4>
+                  <a class="service-see-more">See more <i class="ri-arrow-right-up-fill"></i></a>
+                </div>
+              </div>
+
+              <div class="service-modal-backdrop">
+                <div class="service-modal">
+                  <a class="modal-close-btn"><i class="ri-close-line"></i></a>
+                  <div class="modal-content">
+                    <div class="modal-title">
+                      <h3>Web Design</h3>
+                      <p>I am currently offering help or collaboration in the following areas as part of my learning journey!</p>
+                    </div>
+                    <h4>What I Provide</h4>
+                    <ul class="my-services">
+                      <li><i class="ri-checkbox-circle-fill"></i><p>Build basic website layout using HTML & CSS</p></li>
+                      <li><i class="ri-checkbox-circle-fill"></i><p>Create beginner-friendly responsive designs</p></li>
+                      <li><i class="ri-checkbox-circle-fill"></i><p>Style pages with CSS for improved user experience</p></li>
+                      <li><i class="ri-checkbox-circle-fill"></i><p>Use basic animations or transitions in CSS</p></li>
+                      <li><i class="ri-checkbox-circle-fill"></i><p>Assist with school website projects or templates</p></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-with-modal">
+              <div class="service-card">
+                <div class="service-info">
+                  <i class="ri-image-edit-line service-icon"></i>
+                  <h4>Graphic Design</h4>
+                  <a class="service-see-more">See more <i class="ri-arrow-right-up-fill"></i></a>
+                </div>
+              </div>
+
+              <div class="service-modal-backdrop">
+                <div class="service-modal">
+                  <a class="modal-close-btn"><i class="ri-close-line"></i></a>
+                  <div class="modal-content">
+                    <div class="modal-title">
+                      <h3>Graphic Design</h3>
+                      <p>I am currently offering help or collaboration in the following areas as part of my learning journey!</p>
+                    </div>
+                    <h4>What I Provide</h4>
+                    <ul class="my-services">
+                      <li><i class="ri-checkbox-circle-fill"></i><p>Design simple logos and banners</p></li>
+                      <li><i class="ri-checkbox-circle-fill"></i><p>Create social media graphics using Canva</p></li>
+                      <li><i class="ri-checkbox-circle-fill"></i><p>Make posters and invitations for school events</p></li>
+                      <li><i class="ri-checkbox-circle-fill"></i><p>Edit basic images and layouts</p></li>
+                      <li><i class="ri-checkbox-circle-fill"></i><p>Design clean and minimal presentation slides</p></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-with-modal">
+              <div class="service-card">
+                <div class="service-info">
+                  <i class="ri-align-item-left-fill service-icon"></i>
+                  <h4>UX/UI Design</h4>
+                  <a class="service-see-more">See more <i class="ri-arrow-right-up-fill"></i></a>
+                </div>
+              </div>
+
+              <div class="service-modal-backdrop">
+                <div class="service-modal">
+                  <a class="modal-close-btn"><i class="ri-close-line"></i></a>
+                  <div class="modal-content">
+                    <div class="modal-title">
+                      <h3>UX/UI Design</h3>
+                      <p>I am currently offering help or collaboration in the following areas as part of my learning journey!</p>
+                    </div>
+                    <h4>What I Provide</h4>
+                    <ul class="my-services">
+                      <li><i class="ri-checkbox-circle-fill"></i><p>Design wireframes for web or app ideas</p></li>
+                      <li><i class="ri-checkbox-circle-fill"></i><p>Create simple user interfaces using Canva or Figma</p></li>
+                      <li><i class="ri-checkbox-circle-fill"></i><p>Build low-fidelity prototypes</p></li>
+                      <li><i class="ri-checkbox-circle-fill"></i><p>Organize UI components with good layout practices</p></li>
+                      <li><i class="ri-checkbox-circle-fill"></i><p>Practice user-centered design through feedback</p></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--========== Portfolio ==========-->
+  <section class="sue-section nav-menu-section" id="portfolio">
+    <div class="sue-container sue-sub-container">
+      <div class="sue-wrapper">
+        <div class="section-title">
+          <h3>Portfolio</h3>
+          <p>My Creative Works</p>
+        </div>
+        <div class="portfolio-tabs">
+          <a class="tab-btn active" data-filter="all">All</a>
+          <a class="tab-btn" data-filter="web-design">Web Design</a>
+          <a class="tab-btn" data-filter="ui-design">UX/UI Design</a>
+          <a class="tab-btn" data-filter="photoshop">Photoshop</a>
+          <a class="tab-btn" data-filter="templates">Templates</a>
+        </div>
+        <div class="section-content">
+          <div class="portfolio-container">
+
+            <div class="card-with-modal web-design">
+              <div class="portfolio-card">
+                <div class="card-img">
+                  <img src="assets/images/portfolio images/portfolio-img-01.jpg" alt="">
+                </div>
+                <div class="card-info">
+                  <span>Web Design</span>
+                  <h4>Dynamic</h4>
+                  <i class="ri-arrow-right-up-line card-btn"></i>
+                </div>
+              </div>
+
+              <div class="portfolio-modal-backdrop">
+                <div class="portfolio-modal">
+                  <a class="modal-close-btn"><i class="ri-close-line"></i></a>
+                  <div class="modal-content">
+                    <div class="modal-img">
+                      <img src="assets/images/portfolio images/portfolio-img-01.jpg" alt="">
+                    </div>
+                    <h4 class="modal-title">Digital Experiences - Web Design Projects</h4>
+                    <p class="description">I specialize in designing user-friendly and responsive websites that bring ideas to life in the digital space. My web design projects are a blend of creative vision and functional structure, focusing on layout planning, accessibility, and cross-device compatibility. Each site I create is tailored to the client’s goals while ensuring an enjoyable user journey. From concept sketches to final deployment, I pay close attention to detail, ensuring modern design standards are met. These experiences have equipped me to handle real-world challenges in digital communication and branding through design.</p>
+                    <p class="description">I have designed and developed responsive websites with a strong focus on user experience and clean aesthetics. My work involves planning the layout, wireframing, and implementing modern design principles to ensure seamless navigation across devices. I make sure that every element—from headers to footers—is optimized not just for visual appeal but also for functionality. Whether working on personal projects or client-based websites, I strive to create engaging, accessible, and high-performing digital platforms that reflect the brand’s identity and meet user needs.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-with-modal ui-design">
+              <div class="portfolio-card">
+                <div class="card-img">
+                  <img src="assets/images/portfolio images/portfolio-img-02.jpg" alt="">
+                </div>
+                <div class="card-info">
+                  <span>UI/UX Design</span>
+                  <h4>Submarine</h4>
+                  <i class="ri-arrow-right-up-line card-btn"></i>
+                </div>
+              </div>
+
+              <div class="portfolio-modal-backdrop">
+                <div class="portfolio-modal">
+                  <a class="modal-close-btn"><i class="ri-close-line"></i></a>
+                  <div class="modal-content">
+                    <div class="modal-img">
+                      <img src="assets/images/portfolio images/portfolio-img-02.jpg" alt="">
+                    </div>
+                    <h4 class="modal-title">FlowUX - Dashboard Interface for Productivity Apps</h4>
+                    <p class="description">A clean and modern UI project focused on designing a dashboard interface for a task management tool. I implemented intuitive navigation, smart filtering options, and color-coded status indicators. The design enhances workflow efficiency while maintaining a visually appealing and user-friendly experience across all screen sizes.</p>
+                    <p class="description">For this UI project, I designed an interface for an online education platform. The goal was to create a stress-free user experience for students and educators alike. Features included clean course navigation, progress tracking, and simplified access to learning materials. Accessibility and responsiveness were prioritized throughout the design process.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-with-modal templates">
+              <div class="portfolio-card">
+                <div class="card-img">
+                  <img src="assets/images/portfolio images/portfolio-img-03.jpg" alt="">
+                </div>
+                <div class="card-info">
+                  <span>Templates</span>
+                  <h4>Seven Studio</h4>
+                  <i class="ri-arrow-right-up-line card-btn"></i>
+                </div>
+              </div>
+
+              <div class="portfolio-modal-backdrop">
+                <div class="portfolio-modal">
+                  <a class="modal-close-btn"><i class="ri-close-line"></i></a>
+                  <div class="modal-content">
+                    <div class="modal-img">
+                      <img src="assets/images/portfolio images/portfolio-img-03.jpg" alt="">
+                    </div>
+                    <h4 class="modal-title">The Minimal Grid - Clean Template for Creatives</h4>
+                    <p class="description">I design and build customizable website templates tailored for quick deployment and easy updates. These templates serve as a framework for websites, providing consistent design patterns and reusable components. My template work involves both design and structural planning, allowing developers and content managers to focus more on functionality and less on layout concerns. Whether for blogs, portfolios, or e-commerce platforms, my templates are built to be flexible, responsive, and aesthetically aligned with the clients branding guidelines.</p>
+                    <p class="description">This template was designed for minimalist portfolios and showcases a structured grid layout that highlights visual work without clutter. Clean typography, ample white space, and a responsive layout were key elements in this build. Ideal for designers, photographers, and content creators, the template allows easy customization while maintaining a refined aesthetic across all devices.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-with-modal photoshop">
+              <div class="portfolio-card">
+                <div class="card-img">
+                  <img src="assets/images/portfolio images/portfolio-img-04.jpg" alt="">
+                </div>
+                <div class="card-info">
+                  <span>Photoshop</span>
+                  <h4>Raven Studio</h4>
+                  <i class="ri-arrow-right-up-line card-btn"></i>
+                </div>
+              </div>
+
+              <div class="portfolio-modal-backdrop">
+                <div class="portfolio-modal">
+                  <a class="modal-close-btn"><i class="ri-close-line"></i></a>
+                  <div class="modal-content">
+                    <div class="modal-img">
+                      <img src="assets/images/portfolio images/portfolio-img-04.jpg" alt="">
+                    </div>
+                    <h4 class="modal-title">The Mood Series - Conceptual Posters</h4>
+                    <p class="description">A collection of artistic posters created through photo manipulation and text layering. Each poster was designed around a specific emotion—serenity, chaos, or wonder—using surreal visual elements, lighting effects, and symbolic imagery. The series reflects how graphic design can communicate feelings beyond words.</p>
+                    <p class="description">Using Photoshop, I created dynamic mockups to showcase branding assets in real-world scenarios. From business cards to tote bags and signages, these visuals helped bring branding to life for client presentations. Attention to detail in shadows, reflections, and composition helped each brand appear polished and professional.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-with-modal web-design">
+              <div class="portfolio-card">
+                <div class="card-img">
+                  <img src="assets/images/portfolio images/portfolio-img-05.jpg" alt="">
+                </div>
+                <div class="card-info">
+                  <span>Web Design</span>
+                  <h4>Pro Studio</h4>
+                  <i class="ri-arrow-right-up-line card-btn"></i>
+                </div>
+              </div>
+
+              <div class="portfolio-modal-backdrop">
+                <div class="portfolio-modal">
+                  <a class="modal-close-btn"><i class="ri-close-line"></i></a>
+                  <div class="modal-content">
+                    <div class="modal-img">
+                      <img src="assets/images/portfolio images/portfolio-img-05.jpg" alt="">
+                    </div>
+                    <h4 class="modal-title">Flow & Form - Web Design Collection</h4>
+                    <p class="description">This project showcases my ability to build clean and modern websites from scratch. With a focus on responsive design, I ensured each site performs flawlessly across desktops, tablets, and mobile devices. I implemented structured layouts, purposeful spacing, and clear typography to enhance readability and user engagement. My role included planning the wireframe, choosing the color palette, and integrating interactive elements to create an immersive experience. The goal was to bring a brand’s story to life through a visually coherent and functional website.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-with-modal templates">
+              <div class="portfolio-card">
+                <div class="card-img">
+                  <img src="assets/images/portfolio images/portfolio-img-06.jpg" alt="">
+                </div>
+                <div class="card-info">
+                  <span>Templates</span>
+                  <h4>Design One</h4>
+                  <i class="ri-arrow-right-up-line card-btn"></i>
+                </div>
+              </div>
+
+              <div class="portfolio-modal-backdrop">
+                <div class="portfolio-modal">
+                  <a class="modal-close-btn"><i class="ri-close-line"></i></a>
+                  <div class="modal-content">
+                    <div class="modal-img">
+                      <img src="assets/images/portfolio images/portfolio-img-06.jpg" alt="">
+                    </div>
+                    <h4 class="modal-title">Structured & Stylish - Template Design Projects</h4>
+                    <p class="description">My template designs are pre-built website layouts designed for reuse and customization. These templates cater to different industries—creative portfolios, personal blogs, business pages, and online shops—crafted with clean HTML/CSS structure and responsive grids. Each one is user-friendly and adaptable, making it easy for others to plug in their content without sacrificing design quality. I prioritized modular design, ensuring flexibility for users to modify sections as needed. These templates are practical, professional, and ready for real-world deployment.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-with-modal ui-design">
+              <div class="portfolio-card">
+                <div class="card-img">
+                  <img src="assets/images/portfolio images/portfolio-img-07.jpg" alt="">
+                </div>
+                <div class="card-info">
+                  <span>UX/UI Design</span>
+                  <h4>Color Seven</h4>
+                  <i class="ri-arrow-right-up-line card-btn"></i>
+                </div>
+              </div>
+
+              <div class="portfolio-modal-backdrop">
+                <div class="portfolio-modal">
+                  <a class="modal-close-btn"><i class="ri-close-line"></i></a>
+                  <div class="modal-content">
+                    <div class="modal-img">
+                      <img src="assets/images/portfolio images/portfolio-img-07.jpg" alt="">
+                    </div>
+                    <h4 class="modal-title">FoodieGo - Mobile App UI for Food Delivery</h4>
+                    <p class="description">A UI concept for a food delivery app focused on intuitive user journeys. The design includes a modern home screen, restaurant filters, smooth cart integration, and order tracking. I emphasized the importance of ease of use, vibrant imagery, and consistency in iconography and typography, making the user experience enjoyable and seamless.</p>
+                    <p class="description">For this UI project, I designed an interface for an online education platform. The goal was to create a stress-free user experience for students and educators alike. Features included clean course navigation, progress tracking, and simplified access to learning materials. Accessibility and responsiveness were prioritized throughout the design process.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-with-modal web-design">
+              <div class="portfolio-card">
+                <div class="card-img">
+                  <img src="assets/images/portfolio images/portfolio-img-08.jpg" alt="">
+                </div>
+                <div class="card-info">
+                  <span>Web Design</span>
+                  <h4>Grid Studio</h4>
+                  <i class="ri-arrow-right-up-line card-btn"></i>
+                </div>
+              </div>
+
+              <div class="portfolio-modal-backdrop">
+                <div class="portfolio-modal">
+                  <a class="modal-close-btn"><i class="ri-close-line"></i></a>
+                  <div class="modal-content">
+                    <div class="modal-img">
+                      <img src="assets/images/portfolio images/portfolio-img-08.jpg" alt="">
+                    </div>
+                    <h4 class="modal-title">Pixels & Purpose - Web Design Collection</h4>
+                    <p class="description">In this set of web design works, I focused on combining aesthetic appeal with business functionality. I designed landing pages, portfolio layouts, and service-based websites tailored for small businesses and personal brands. Each design reflects a unique identity, carefully constructed to highlight the content while guiding the user seamlessly through the site. I emphasized UI/UX principles to ensure ease of navigation, clarity of messaging, and fast loading times, all while maintaining visual consistency and responsive behavior.</p>
+                    <p class="description">This collection features web design projects aimed at storytelling through digital design. From portfolio websites to event microsites, I used layout composition, interactive effects, and dynamic visuals to capture attention. I worked closely with clients to understand their brand voice and user needs, which allowed me to create tailored experiences that reflect both creativity and functionality. Each design was refined through prototyping and iteration, ensuring pixel-perfect results that communicate clearly and visually impress.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonials">
+        <div class="section-title">
+          <h3>Extra Curriculars</h3>
+          <p>School Acivities</p>
+        </div>
+        <div class="section-content">
+          <div class="swiper sue-client-swiper">
+            <div class="swiper-wrapper">
+
+              <div class="swiper-slide">
+                <div class="client-img">
+                  <img src="assets/images/client images/chess.jpg" alt="">
+                </div>
+                <div class="client-details">
+                  <h3>Chess Tournament</h3>
+                  <span>Regional Level (2025, Cebu)</span>
+                  <p>Represented our school in the 2025 Regional Chess Tournament held in Cebu. This experience sharpened my analytical thinking, focus, and ability to make decisions under pressure — skills that also translate well into design and development work.</p>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="client-img">
+                  <img src="assets/images/client images/brochure.jpg" alt="">
+                </div>
+                <div class="client-details">
+                  <h3>Brochure Design Contest</h3>
+                  <span>Techno Festival 2023</span>
+                  <p>The team won 1st place in a school-wide Brochure Design Competition. I combined visual creativity with persuasive content layout, showcasing my strength in both graphic design and communication.</p>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="client-img">
+                  <img src="assets/images/client images/typing.jpg" alt="">
+                </div>
+                <div class="client-details">
+                  <h3>Typing Master Challenge</h3>
+                  <span>Techno Festival 2024</span>
+                  <p>Placed 2nd in the Typing Master Competition during the Techno Festival 2024. This reflects my speed, accuracy, and dedication to developing practical tech skills in a fast-paced environment.</p>
+                </div>
+              </div>
+            
+            </div>
+            <div class="swiper-button-next">
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+            <div class="swiper-button-prev">
+              <i class="ri-arrow-left-s-line"></i>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!--========== Contact Me ==========-->
+  <section class="sue-section nav-menu-section" id="contact">
+    <div class="sue-container sue-sub-container">
+      <div class="sue-wrapper">
+        <div class="section-title">
+          <h3>Contact Me</h3>
+          <p>Get In Touch</p>
+        </div>
+        <div class="section-content">
+          <div class="contact-container">
+
+            <div class="contact-info">
+              <h3>Contact Info</h3>
+              <ul class="contact-details">
+
+                <li class="contact-item">
+                  <div class="contact-icon">
+                    <i class="ri-mail-send-fill"></i>
+                  </div>
+                  <div class="contact-method">
+                    <span>E-mail</span>
+                    <h4>info@anj.yeshua.com</h4>
+                    <a href="mailto:shin@default.com" target="_blank"><span>Send <i class="ri-arrow-right-up-line"></i></span></a>
+                  </div>
+                </li>
+
+                <li class="contact-item">
+                  <div class="contact-icon">
+                    <i class="ri-whatsapp-line"></i>
+                  </div>
+                  <div class="contact-method">
+                    <span>Whatsapp</span>
+                    <h4>+63 936-814-1129</h4>
+                    <a href="https://wa.me/+639368141129?text=Hello%20there!%20How%20can%20I%20help%20you?" target="_blank"><span>Send <i class="ri-arrow-right-up-line"></i></span></a>
+                  </div>
+                </li>
+
+                <li class="contact-item">
+                  <div class="contact-icon">
+                    <i class="ri-messenger-fill"></i>
+                  </div>
+                  <div class="contact-method">
+                    <span>Messenger</span>
+                    <h4>Anj.Yeshua-fb1129</h4>
+                    <a href="http://m.me/codingsnow?text=Hello%20and%20Welcome!" target="_blank"><span>Send <i class="ri-arrow-right-up-line"></i></span></a>
+                  </div>
+                </li>
+
+              </ul>
+
+              <h3>Social Info</h3>
+              <ul class="contact-social-links">
+                <li><a href=""><i class="ri-facebook-fill"></i></a></li>
+                <li><a href=""><i class="ri-twitter-x-fill"></i></a></li>
+                <li><a href=""><i class="ri-linkedin-fill"></i></a></li>
+              </ul>
+
+            </div>
+
+            <div class="contact-form-body">
+              <h2>Let's work <span>together.</span></h2>
+              <p>I’m open to collaborations, project partnerships, or just connecting with fellow students and professionals. Feel free to message me!</p>
+              <form action="" method="POST" id="sue-contact-form">
+                <div class="input-group">
+                  <input type="text" name="full-name" placeholder="Name *" required>
+                </div>
+                <div class="input-group">
+                  <input type="text" name="email" placeholder="Email *" required>
+                </div>
+                <div class="input-group">
+                  <input type="text" name="subject" placeholder="Your Subject *" required>
+                </div>
+                <div class="input-group">
+                  <textarea name="message" placeholder="Your Message *" required></textarea>
+                </div>
+                <div class="input-group send-message">
+                  <button class="sue-main-btn fill-btn submit-btn" name="submit" type="submit">Send Message</button>
+                  <div class="contact-form-alert"></div>
+                </div>
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--========== Footer ==========-->
+  <footer class="sue-footer">
+    <div class="sue-container">
+      <div class="inner">
+        <div class="sue-logo">
+          <a href="#home"><span>Anj</span></a>
+        </div>
+        <ul class="footer-menu">
+          <li class="menu-item"><a href="#about">About</a></li>
+          <li class="menu-item"><a href="#resume">Resume</a></li>
+          <li class="menu-item"><a href="#service">Service</a></li>
+          <li class="menu-item"><a href="#portfolio">Portfolio</a></li>
+        </ul>
+        <p class="copy-right">© All rights reserved by <a href="">Anj Yeshua</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!--========== Swiper JS ==========-->
+  <script src="assets/js/swiper-bundle.min.js"></script>
+
+  <!--========== EmailJS ==========-->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  
+
+  <!--========== Main javascript ==========-->
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
